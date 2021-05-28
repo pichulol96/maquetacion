@@ -1,0 +1,56 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.card{
+	margin-left: 15px;
+}
+.card:hover{
+	border-left: solid 2px red;
+	transition: 0.5s;
+
+}
+nav a{
+	color:white;
+}
+nav a:hover
+{
+	transition: 0.3s;
+	background:#f3f3f3;
+	color:white;
+}
+nav img{
+	margin-right: 100px;
+}
+.card p{
+	text-align:left;
+}
+footer{
+margin: 0px;	
+padding: 0px;
+position: absolute;
+width: 100%;
+}
+footer p {
+  text-align: center;
+}
+footer ul{
+	display: flex;
+	text-align: center;
+	justify-content:center;
+	 
+	 text-decoration: none;
+}
+footer ul li{
+	list-style: none;
+	text-decoration: none;
+    padding: 10px;
+
+}
+.focus{
+
+	transition: 0.3s;
+	background: #f3f3f3;
+	border-left: solid 3px red;
+
+}
