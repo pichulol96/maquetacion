@@ -27,24 +27,24 @@
 
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" id="focusm" onclick="addClase('focusm')"  href="#mecanico">Presentacion <span class="sr-only">(current)</span></a>
+	        <a class="nav-link" id="focuspre" onclick="addClase('focuspre')"  href="#presentacion">Presentacion <span class="sr-only">(current)</span></a>
 
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" id="focuse" onclick="addClase('focuse')"   href="#electrico">Datos Personales <span class="sr-only">(current)</span></a>
+	        <a class="nav-link" id="focusdatos" onclick="addClase('focusdatos')"   href="#datosPersonales">Datos Personales <span class="sr-only">(current)</span></a>
 	      </li>
 
 	      <li class="nav-item">
-	        <a class="nav-link" id="focusp" onclick="addClase('focusp')"  href="#pintura">Habilidades</a>
-	      </li>
-	     
-	      <li class="nav-item">
-	        <a class="nav-link" id="focusl"onclick="addClase('focusl')"   href="#lubricentro" tabindex="-1" aria-disabled="true">Formacion academica</a>
+	        <a class="nav-link" id="focushabilidades" onclick="addClase('focushabilidades')"  href="#habilidades">Habilidades</a>
 	      </li>
 
 	      <li class="nav-item">
-	        <a class="nav-link" id="focusl"onclick="addClase('focusl')"   href="#lubricentro" tabindex="-1" aria-disabled="true">Proyectos</a>
+	        <a class="nav-link" id="focusproyectos"onclick="addClase('focusproyectos')"   href="#proyectos" tabindex="-1" aria-disabled="true">Proyectos</a>
 	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" id="focusfooter"onclick="addClase('focusfooter')"   href="#footer" tabindex="-1" aria-disabled="true">Contactame</a>
+	      </li>
+
 	    </ul>
 	  </div>
    </nav>
@@ -96,7 +96,7 @@
   </div>
 
   <center>
-  	<h4 style="margin-top: 40px;" >DATOS PERSONALES</h4>
+  	<h4 id="datosPersonales" style="margin-top: 40px;" >DATOS PERSONALES</h4>
   </center>
   <section class="container datos-personales">
   	<div class="card mb-3 shadow p-3 mb-5 bg-white rounded" style="max-width: 1100px;">
@@ -117,7 +117,7 @@
 	</div>
   </section>
   <center>
-  	<h4 style="margin-top: 40px;" >PRESENTACION PROFECIONAL</h4>
+  	<h4 id="presentacion" style="margin-top: 40px;" >PRESENTACION PROFECIONAL</h4>
   </center>
   <section class="container presentacio"><!-- presentacion-->
   	<div class="card shadow p-3 mb-5 bg-white rounded">
@@ -135,7 +135,7 @@
   </section>
   
   <center>
-  	<h4 style="margin-top: 20px;" >HABILIDADES</h4>
+  	<h4 id="habilidades" style="margin-top: 20px;" >HABILIDADES</h4>
   </center>
   <section >
   	<div class="container ">
@@ -188,7 +188,9 @@
   	</div>
   </section>
 
-
+  <center>
+  	<h4 id="proyectos" style="margin-top: 20px;" >PROYETCOS</h4>
+  </center>
   <section class="container proyectos"  id="principal" >
   	
   	<div class="row" style="display: flex; padding: 10px; padding:  margin-top: 20px;">
@@ -267,7 +269,7 @@
   </section>
    
 
-  <footer class="">
+  <footer id="footer" class="">
   
 	  	<ul>
 	  		<li>
