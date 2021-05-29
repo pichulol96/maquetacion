@@ -16,14 +16,30 @@ nav a{
 nav a:hover
 {
 	transition: 0.3s;
-	background:#f3f3f3;
+	background:#5189f2;
 	color:white;
 }
 nav img{
-	margin-right: 100px;
+	
 }
 .card p{
 	text-align:left;
+}
+.presentacio{
+	margin-top: 15px;
+}
+.datos-personales{
+
+}
+.datos-personales p{
+	color:#3773e3;
+}
+.proyectos .card-body img{
+	border-radius: 100px;
+}
+blockquote p{
+	margin-bottom: 5px;
+
 }
 footer{
 margin: 0px;	
@@ -47,10 +63,14 @@ footer ul li{
     padding: 10px;
 
 }
+footer a:hover{
+	transition: 0.4s;
+	font-size: 30px;
+}
 .focus{
 
 	transition: 0.3s;
-	background: #f3f3f3;
+	background: #5189f2;
 	border-left: solid 3px red;
 
 }
