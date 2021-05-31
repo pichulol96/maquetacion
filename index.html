@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Taller mecanico</title>
+	<title>Mi portafolios</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
@@ -13,8 +13,9 @@
 </head>
 <body  class="bg-light">
   <header>
-  	<nav style="position: fixed; width: 100%;background: #393939; " class="navbar navbar-expand-lg   sticky-top">
-	  <img style="border-radius: 4px; margin-right: 100px;" src="archivos/logo.jpg" height="40" width="40">
+  	<nav style="position: fixed;" class="navbar navbar-expand-lg   sticky-top">
+	  <!--<img class="logo" src="archivos/imgLogo/logo.png" height="40" width="80">-->
+	  <h1>PORTAFOLIOS</h1>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 	    <img src="icons2/list.svg" width="20">
 	  </button>
@@ -50,10 +51,10 @@
    </nav>
   </header>
 
-    <div style="margin-top: 56px;" class="container ">
+    <div class="container imagenes-presentacion ">
 	  <section id="segundo" class="">
 	  	<div class="container">
-			<div style="" id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+			<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 			  <ol class="carousel-indicators">
 			    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
 			    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -62,23 +63,23 @@
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
 			      <img src="archivos/imgMias/1.jpg"   class="d-block w-100" alt="...">
-			      <div style="background: red;" class="carousel-caption d-none d-md-block">
-			        <h5 s>First slide label</h5>
-			        <p>Some representative placeholder content for the first slide.</p>
+			      <div  class="carousel-caption d-none d-md-block">
+			        <h5> Taller De Sistemas Operativos</h5>
+			        <p>Ponchando cable UTP para una practica de comunicacion entre 2 computadoras.</p>
 			      </div>
 			    </div>
 			    <div class="carousel-item">
 			      <img src="archivos/imgMias/2.jpg" width="100%"  class="d-block w-100" alt="...">
-			      <div style="background: red;" class="carousel-caption d-none d-md-block">
-			        <h5>Second slide label</h5>
-			        <p>Some representative placeholder content for the second slide.</p>
+			      <div  class="carousel-caption d-none d-md-block">
+			        <h5>Prgramacion Web</h5>
+			        <p>Terminando mi programa en mi tiempo libre en la univercidad .</p>
 			      </div>
 			    </div>
 			    <div class="carousel-item">
-			      <img src="archivos/imgMias/3.jpg" width="100%" class="d-block w-100" alt="...">
-			      <div style="background: red;" class="carousel-caption d-none d-md-block">
-			        <h5>Third slide label</h5>
-			        <p>Some representative placeholder content for the third slide.</p>
+			      <img src="archivos/imgMias/4.jpg" width="100%" class="d-block w-100" alt="...">
+			      <div  class="carousel-caption d-none d-md-block">
+			        <h5>Cursos De Ingles</h5>
+			        <p>La ultima foto del semestre, antes de irme de vacaciones 2019.</p>
 			      </div>
 			    </div>
 			  </div>
@@ -96,13 +97,13 @@
   </div>
 
   <center>
-  	<h4 id="datosPersonales" style="margin-top: 40px;" >DATOS PERSONALES</h4>
+  	<h4 id="datosPersonales">DATOS PERSONALES</h4>
   </center>
   <section class="container datos-personales">
   	<div class="card mb-3 shadow p-3 mb-5 bg-white rounded" style="max-width: 1100px;">
 	  <div class="row g-0">
 	    <div class="col-md-4">
-	      <img src="archivos/marco.jpg" width="300" alt="...">
+	      <img src="archivos/imgMias/marco.jpg" width="300" alt="...">
 	    </div>
 	    <div class="col-md-8">
 	      <div class="card-body">
@@ -111,13 +112,15 @@
 	        <p class="card-text">Ingeniero en sistemas computacionales </p>
 	        <p class="card-text">24 años FN 12/OCT/1996</p>
 	        <p class="card-text">C. Cuauhtémoc, Col. Tres palos, CP. 39908, Acapulco de Juárez Gro </p>
+	        <p class="card-text">Descargar CV <a href="archivos/pdf/CV_MARCO_ANTONIO_2021.pdf" download="pdf" target="_blank">Click</a></p>
 	      </div>
 	    </div>
 	  </div>
 	</div>
   </section>
+
   <center>
-  	<h4 id="presentacion" style="margin-top: 40px;" >PRESENTACION PROFECIONAL</h4>
+  	<h4 id="presentacion">PRESENTACION PROFECIONAL</h4>
   </center>
   <section class="container presentacio"><!-- presentacion-->
   	<div class="card shadow p-3 mb-5 bg-white rounded">
@@ -135,9 +138,10 @@
   </section>
   
   <center>
-  	<h4 id="habilidades" style="margin-top: 20px;" >HABILIDADES</h4>
+  	<h4 id="habilidades">HABILIDADES</h4>
   </center>
-  <section >
+
+  <section>
   	<div class="container ">
   		<div class="card shadow p-3 mb-5 bg-white rounded">
 		  
@@ -152,7 +156,7 @@
 		      <div class="progress">
 				  <div class="progress-bar bg-danger" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
 				</div>
-		      <p>JAVASCRIP</p>
+		      <p>JAVASCRIPT</p>
 		      <div class="progress">
 				  <div class="progress-bar bg-warning" role="progressbar" style="width: 73%" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100"></div>
 				</div>
@@ -189,7 +193,7 @@
   </section>
 
   <center>
-  	<h4 id="proyectos" style="margin-top: 20px;" >PROYETCOS</h4>
+  	<h4 id="proyectos">PROYETCOS</h4>
   </center>
   <section class="container proyectos"  id="principal" >
   	
@@ -203,11 +207,13 @@
 		    <p class="card-text">
 		    	Es un sistema desarrollado para controlar el uso de equipos del almacen para poder saber que personas de la empresa tienen que articulos y en que lugar, para saber si el equipo esta dispobible o no lo esta para que las demas personas puedan usarlos, el sistema imprime reportes de resguardo y de entrega de equipos.
 		    </p>
+		    <hr>
 		    <h6>TECNOLOGIAS QUE SE USARON</h6>
 		    <center>
 		    <img class="img-responsive" src="archivos/imgTecnologias/angular.png" width="50" height="50">
 		    <img src="archivos/imgTecnologias/php.jpg" width="50" height="50">
 		    <img src="archivos/imgTecnologias/html.png"width="50" height="50">
+		    <img src="archivos/imgTecnologias/bootstrap.png"width="50" height="50">
 		    <img src="archivos/imgTecnologias/css.jpg"width="50" height="50">
 		    <img src="archivos/imgTecnologias/mysql.jpg"width="50" height="50">
 		    </center>
@@ -225,6 +231,7 @@
 		    Chat en tiempo real usando laravel websockets y pusher para la comunicacion, para poder chatear con personas primero debes de registrarte en el sistema con un correo que este dispoble ya que primero se envia un correro de verificacion, una vez activado el usuario ya puede logearse para empezar a chatear con las personas registradas en el sistema, puedes ver los usuarios conectados y desconectados en tiempo real, tambien los mensajes entre amigos son en tiempo real.
 		    Este sistema fue adaptable especialmente para dispositivos moviles
 		    </p>
+		    <hr>
 		    <h6>TECNOLOGIAS QUE SE USARON</h6>
 		    <center>
 		    <img class="img-responsive" src="archivos/imgTecnologias/angular.png" width="50" height="50">
@@ -244,10 +251,21 @@
 		  <img src="archivos/imgProyectos/ferreteria.jpg" class="card-img-top" alt="...">
 		  <div class="card-body">
 		    <p class="card-text">
-		    	Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.
-		    	Some quick example text to build on the card title and make up the bulk of the card's content.
-		    	Some quick example text to build on the card title and make up the bulk of the card's content.
+		       El sistema gestiona control de almacen de materiales y herramientas, trabajadores que reliazn el mantenimiento, servicio realizado y empleado que solicita la orden. El sistema maneja roles para que cada usuario pueda realizar disversas tareas, haciendo asi mas eficaz el sistema. El sistema tambien genera reportes de inventario, compras, herramientas de resguardo, solicitud de orden, tambien se exportan datos a excel.
 		    </p>
+		    <p>
+		    	
+		    </p>
+		    <hr>
+		    <h6>TECNOLOGIAS QUE SE USARON</h6>
+		    <center>
+		    <img src="archivos/imgTecnologias/php.jpg" width="50" height="50">
+		    <img src="archivos/imgTecnologias/js.png" width="50" height="50">
+		    <img src="archivos/imgTecnologias/html.png"width="50" height="50">
+		    <img src="archivos/imgTecnologias/bootstrap.png"width="50" height="50">
+		    <img src="archivos/imgTecnologias/css.jpg"width="50" height="50">
+		    <img src="archivos/imgTecnologias/mysql.jpg"width="50" height="50">
+		    </center>
 		  </div>
 		</div>
 
@@ -259,10 +277,20 @@
 		  <img src="archivos/imgProyectos/ventas.jpg" class="card-img-top" alt="...">
 		  <div class="card-body">
 		    <p class="card-text">
-		    	Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.
-		    	Some quick example text to build on the card title and make up the bulk of the card's content.
-		    	Some quick example text to build on the card title and make up the bulk of the card's content.
+		    	Es un sietema de ventas que se centraliza unicamente en 2 roles, vendedores y compradores. los vendedores pueden hacer crud de los articulos. los compradores, pueden buscar articulos, agregar articulos a carrito de compras y comprar articulo.
 		    </p>
+            <hr>
+		    <h6>TECNOLOGIAS QUE SE USARON</h6>
+		    <center>
+		    
+		    <img src="archivos/imgTecnologias/laravel.jpg" width="50" height="50">
+		    <img src="archivos/imgTecnologias/js.png" width="50" height="50">
+		    <img src="archivos/imgTecnologias/html.png"width="50" height="50">
+		    <img src="archivos/imgTecnologias/bootstrap.png"width="50" height="50">
+		    <img src="archivos/imgTecnologias/css.jpg"width="50" height="50">
+		    <img src="archivos/imgTecnologias/mysql.jpg"width="50" height="50">
+		    </center>
+
 		  </div>
 		</div>
 	</div>	
@@ -270,14 +298,13 @@
    
 
   <footer id="footer" class="">
-  
 	  	<ul>
 	  		<li>
 	  			<a href="https://www.facebook.com/pichuu.lorenzolucena/" target="_blank">  <img src="icons2/facebook.svg" width="30">
 	  			</a>
 	  		</li>
 	  		<li>
-	  			<a href="#"><img src="icons2/instagram.svg" width="30"></a>
+	  			<a href="https://www.instagram.com/marco.lorenzoo/?hl=es-la"  target="_blank"><img src="icons2/instagram.svg" width="30"></a>
 	  		</li>
 	  		<li>
 	  			<a href="https://wa.me/+527444018070" target="_blank">
@@ -285,12 +312,9 @@
 	  			</a>
 	  		</li>
 	  		<li>
-	  			<a href="#"><img src="icons2/envelope.svg"width="30"></a>
+	  			<a href="mailto:pichulol96@gmail.com?subject=Mi Sitio Web%20Subject&body=Email%20Body%20Te mando este mensaje desde tu pagina web respondeme." target="_blank"><img src="icons2/envelope.svg"width="30"></a>
 	  		</li>
-
-
 	  	</ul>
-  
   </footer>
 </body>
 </html>

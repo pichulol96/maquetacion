@@ -31,10 +31,6 @@ function search_items()
       
       }
     })
-  
-     
-      
-      
       return false;
 }
 
